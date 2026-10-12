@@ -1,0 +1,10 @@
+[Unit]
+Description=Run lab uptime logger every minute
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+Unit=uptime-logger.service
+
+[Install]
+WantedBy=timers.target

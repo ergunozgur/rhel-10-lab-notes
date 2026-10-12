@@ -1,0 +1,6 @@
+[Unit]
+Description=Lab uptime logger
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/uptime-logger.sh
